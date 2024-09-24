@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        int[][][] array = {
+            { {1, 2, 3}, {4, 5, 6} },
+            { {7, 8, 9}, {10, 11, 12} }
+        };
+
+        // Get the size of the 3D array
+        int dim1 = array.length;           // Number of 2D arrays
+        int dim2 = array[0].length;        // Number of rows in the first 2D array
+        int dim3 = array[0][0].length;     // Number of elements in the first row
+
+        System.out.println("Dimensions: " + dim1 + " x " + dim2 + " x " + dim3);
+    }
+}
